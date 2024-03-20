@@ -1,0 +1,308 @@
+/* global */
+
+:root {
+  --blanco: #ffffff;
+  --primario: #c2cbf7;
+  --secundario: #404040;
+  --tercero: #23232b;
+  --negro: #000000;
+  --primarioalt: #ff0a8e;
+  --secundalt: #005a6d;
+  --terceroalt: #1a1a1a;
+  --cuarto: #eeeeee;
+  --fuentePrincipal: "Inter", sans-serif;
+  --fuenteSegunda: "Roboto", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 1rem = 10px */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+}
+
+p {
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: var(--fuentePrincipal);
+}
+
+h2 {
+  font-family: var(--fuentePrincipal);
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+h3 {
+}
+
+h4 {
+  font-family: var(--fuenteSegunda);
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+h5 {
+  font-family: var(--fuenteSegunda);
+  font-size: 16px;
+  line-height: 36px;
+}
+
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.body1 {
+  margin: 0;
+  padding: 0;
+  background: var(--terceroalt);
+}
+
+.body2 {
+  margin: 0;
+  padding: 0;
+  background: #ff0a8e !important;
+}
+
+.body3 {
+  margin: 0;
+  padding: 0;
+  background-color: var(--terceroalt);
+}
+
+.meta {
+  width: 55%;
+  height: auto;
+}
+
+.AppContainer {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  overflow: auto;
+  height: 100%;
+}
+
+.AppContainer__content {
+  justify-content: center;
+}
+
+.AppContainer2 {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.AppContainer3 {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  overflow: auto;
+  height: 100%;
+}
+
+/* global */
+
+
+/* texto cinética */
+
+.textocinetica {
+  color: var(--blanco);
+  font-family: var(--fuentePrincipal);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textocinetica h1 {
+  font-size: 3.2rem;
+  margin: 0;
+}
+
+.textocinetica h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.textocinetica h3 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.textocinetica h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.textocinetica h5 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.textocinetica h6 {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.textocinetica p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.turismo {
+}
+
+.colombia {
+  position: relative;
+  top: -60px;
+  text-align: right;
+}
+
+.toursenmedellín {
+  position: relative;
+  top: -27px;
+}
+
+.todoincluído {
+  position: relative;
+  top: -87px;
+  text-align: right;
+  margin-right: -35px;
+}
+
+.planesturísticos {
+  position: relative;
+  top: -201px;
+  padding-left: 35px;
+}
+
+.aventura {
+  position: relative;
+  top: -198px;
+  text-align: left;
+  padding-left: 28px;
+}
+
+.tours2 {
+  position: relative;
+  top: -209px;
+  text-align: right;
+}
+
+.paquetes {
+  position: relative;
+  top: -182px;
+  text-align: left;
+  margin-left: -15px;
+}
+
+.graffitour {
+  position: relative;
+  top: -277px;
+  text-align: left;
+  padding-left: 45px;
+}
+
+.haciendanápoles {
+  position: relative;
+  top: -281px;
+  text-align: right;
+}
+
+.paisajes {
+  position: relative;
+  top: -304px;
+}
+
+.preciosbajos {
+  position: relative;
+  top: -321px;
+  text-align: right;
+  padding-right: 32px;
+}
+
+.santafé {
+  position: relative;
+  top: -301px;
+  text-align: left;
+  padding-left: 92px;
+}
+
+.guatapé {
+  position: relative;
+  top: -337px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.explora {
+  position: relative;
+  top: -372px;
+}
+
+.medellín2 {
+  position: relative;
+  top: -400px;
+  text-align: left;
+}
+
+.antioquia {
+  position: relative;
+  top: -373px;
+  text-align: left;
+  margin-left: -11px;
+}
+
+.toursTodoPago {
+  position: relative;
+  top: -473px;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.toursCercaPoblado {
+  position: relative;
+  top: -381px;
+  text-align: left;
+  margin-left: -26px;
+}
+
+.turismoCity {
+  position: relative;
+  top: -480px;
+  text-align: right;
+  padding-right: 99px;
+}
+
+/* texto cinética */
